@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Montserrat&display=swap');
+
+body {
+  background-color: #270303;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+.imagem-cabecalho {
+  width: 108px;
+  height: 62px;
+  border-radius: 93px;
+  mix-blend-mode: color-dodge;
+}
+.nav-cabecalho {
+  display: flex;
+  gap: 32px;
+  
+}
+
+
+.cabecalho-menu-item {
+  font-family: 'Ewert', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.4px solid #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 214px;
+  
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Ewert', cursive;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+
+.botao-conteudo {
+  width: 225px;
+  height: 67px;
+  border-radius: 20px;
+  border: none;
+  background-color: #8E4444;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  transition: 250ms;
+
+}
+
+.botao-conteudo:hover{
+  background-color: #560E0E;
+  transition: 250ms;
+}
+.link-discord {
+  text-decoration: none;
+  color: #000000;
+}
+
+.imagem-principal {
+  width: 750px;
+  height: 429px;
+  border-radius: 20px;
+  margin-top: 65px;
+  margin-bottom: 69px;
+}
+
+.conteudo-descritivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.conteudo-descritivo-titulo {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  border-top: 0.4px solid #FFFFFF;
+  padding-top: 48px;
+}
+
+.conteudo-descritivo-paragrafo {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.conteudo-sobre-nos {
+  color: white;
+  font-size: 60px;
+  margin-top: 1000px;
+  margin-bottom: 1000px;
+}
+
+
